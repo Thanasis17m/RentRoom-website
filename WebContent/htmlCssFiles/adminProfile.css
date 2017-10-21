@@ -1,0 +1,40 @@
+
+.main_div {
+	max-width: 1000px;
+  	margin: 40px auto;
+  	background-color: #f2f2f2;
+  	padding: 15px;
+  	border: 2px solid #ff5733;
+}
+
+
+.admin_option {
+	background-color: #f2f2f2;
+  	padding: 15px;
+  	border: 2px solid #ff5733;
+  	border-left: none;
+  	border-right: none;
+  	border-top: none;
+}
+
+
+.admin_button {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  background-color: #ff5733; /*button's color*/
+  border: none;
+  color: white;/*text's color*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.2s;/*the speed of the hover effect*/
+  cursor: pointer;
+}
+
+.admin_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
