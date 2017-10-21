@@ -1,0 +1,151 @@
+
+.login_modal {
+	display: none; /*Hidden by default*/
+	position: fixed;/*Stays in one place*/
+	z-index: 1;/*Sit on top*/
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 75px;
+}
+
+
+/* Modal Content/Box */
+.login_modal_content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+}
+
+.login_div {
+    padding: 16px;
+}
+
+.login_label {
+    margin-top: 12px;
+    display: inline-block;
+}
+
+
+/* The Close Button (x) */
+.close_icon {
+    position: relative;
+    right: 0px;
+    top: 0;
+    color: #000;/*black colour*/
+    font-size: 25px;
+    font-weight: bold;
+    float:right;
+    display: inline-block;
+}
+
+.close_icon:hover,.close_icon:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.input_login {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* ff2 */
+    -ms-box-sizing: border-box; /* ie8 */
+    -webkit-box-sizing: border-box; /* safari3 */
+    -khtml-box-sizing: border-box; /* konqueror */
+}
+
+#input_remember {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.forgot_psw_msg {
+    display: inline-block;
+    float: right;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.forgot_psw_link {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.forgot_psw_link:hover {
+    text-decoration: underline;
+}
+
+.login_button {
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: #ff5733; /*button's color*/
+    border: none;
+    color: white;/*text's color*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;/*the speed of the hover effect*/
+    cursor: pointer;
+}
+
+.login_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+.signup_msg {
+    display: inline-block;
+    font-size: 15px;
+    float: left;
+    margin-top: 15px;
+    color: #4c4c4c;
+}
+
+#signup_footer_button {
+    float: right;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ff5733;
+    color: #ff5733;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;/*the speed of the hover effect*/
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change width of login window on extra small screens */
+@media screen and (max-width: 850px) {
+    .login_modal_content{
+        width: 50%;
+    }
+}

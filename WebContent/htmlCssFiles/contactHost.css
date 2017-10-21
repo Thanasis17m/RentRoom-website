@@ -1,0 +1,48 @@
+
+.contact_div {
+	max-width: 900px;
+  	margin: 40px auto;
+  	background-color: #f2f2f2;
+  	padding: 15px;
+  	border: 2px solid #ff5733;
+  	overflow: hidden;
+}
+
+
+.contact_title {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.contact_textarea {
+	width: 100%;
+	border: 1px solid #ff5733;
+}
+
+.contact_button {
+	width: 150px;
+	height: 50px;
+	float: right;
+	display: inline-block;
+	background-color: #ff5733; /*button's color*/
+	border: none;
+	color: white;/*text's color*/
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;/*the speed of the hover effect*/
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+.contact_button:hover {
+	background-color: #ff6f00;
+	color: black;
+}

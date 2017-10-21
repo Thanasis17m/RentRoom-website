@@ -1,0 +1,290 @@
+
+.search_bar, .search_results {
+	max-width: 850px;
+  	margin: 40px auto;
+  	background-color: #f2f2f2;
+  	padding: 15px;
+  	border: 2px solid #ff5733;
+}
+
+.search_destination, .search_arrival, .search_departure, .search_adults, .search_children, .search_price, .search_more_filters {
+	margin: 0px 10px;
+	display: inline-block;
+}
+
+.search_more_filters{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.search_title {
+	font-size: 17px;
+	color: #4c4c4c;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+
+.search_input {
+	font-size: 14px;
+	background-color: #fff;
+	padding: 10px 10px;
+    border: 2px solid #8a8a8a;
+	border-radius: 5px;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.search_input:focus{
+	border: 2px solid #ff5733;
+}
+
+.has_calendar_icon { /*we place the small calendar icon inside the search input field*/
+  background: white url(..//Images/calendar_tiny3.png) 4% no-repeat;
+  text-indent: 22px;
+}
+
+#ui-datepicker-div {/*style the date picker calendar*/
+  background: #ff5733;/*background colour set to orange*/
+  border: 1px solid #555;/*thicker border between the day cells*/
+  color: #EEE;/*the day's color set to white*/
+}
+
+.select_guests {
+	margin-top: 10px;
+	border: 2px solid #8a8a8a;
+	border-radius: 5px;
+}
+
+.select_guests:focus{
+	border: 2px solid #ff5733;
+}
+
+#price_values {
+	border:0;
+	color: #ff5733; /*#f6931f;*/
+	font-weight:bold;
+	background-color: #f2f2f2;
+}
+
+#slider_range {
+	margin-top: 6px;
+	background-color: #ff5733;
+
+}
+
+.ui-slider, .ui-slider-horizontal, .ui-widget, .ui-widget-content, .ui-corner-all, .ui-slider-range, .ui-widget-header, .ui-corner-all,.ui-widget-header, .ui-slider-handle {
+	background-color: #ff5733;
+	color: #ff5733;
+}
+
+.dropbutton {
+	width: 80px;
+	height: 50px;
+	background-color: #ff5733; /*button's color*/
+	border: 2px solid #8a8a8a;
+	border-radius: 10px;
+	color: white;/*text's color*/
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;/*the speed of the hover effect*/
+	cursor: pointer;
+}
+
+.dropbutton:hover {
+	background-color: #ff6f00;
+	color: black;
+}
+
+.dropdown_filters {
+	display: none;
+    background-color: #f2f2f2;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+.show {
+	display: block;
+	float: left;
+	margin: 20px 10px;
+	width: 100%;
+}
+
+.filter_name {
+	display: inline-block;
+	font-size: 16px;
+	color: #4c4c4c;
+	font-weight: 500;
+	margin-bottom: 4px;
+}
+
+.qty {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
+
+.qtyplus, .qtyminus { 
+	width:25px; 
+	height:25px;
+	text-align: center;
+	padding: 0px;
+}
+
+.checkbox_div {
+	display: inline-block;
+}
+
+
+.search_button {
+  width: 100px;
+  height: 50px;
+  float: right;
+  display: inline-block;
+  background-color: #ff5733; /*button's color*/
+  border: none;
+  color: white;/*text's color*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0px 10px;
+  margin-top: 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;/*the speed of the hover effect*/
+  cursor: pointer;
+}
+
+.search_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+
+.div_title {
+	display: block;
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: #484848;
+	font-weight: normal;
+}
+
+.result {
+	display: inline-block;
+	background-color: #f2f2f2;
+  	padding: 10px;
+  	border: 1px solid #ff5733;
+  	border-bottom: none;
+  	border-left: none;
+  	margin: 10px 5px;
+}
+
+.listing_title {
+	display: block;
+	font-size: 18px;
+	color: #484848;
+	font-weight: bold;
+}
+
+.listing_type, .listing_reviews, .listing_beds {
+	display: inline-block;	
+	font-size: 16px;
+	color: #484848;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.listing_price, .listing_rating {
+	display: inline-block;	
+	font-size: 16px;
+	color: #484848;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: right;
+}
+
+.listing_image {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	max-width: 820px;
+	max-height: 400px;
+}
+
+.pagination {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #ff5733;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ff6f00;}
+
+.type_name {/*label css*/
+	width: 250px;
+  	border-radius: 4px;
+  	border: 1px solid #ccc;
+  	background-color: white;
+}
+
+
+/* hide input */
+input.radio {
+	display: none;
+}
+
+/* style label */
+input.radio ~ label {
+	position: relative;
+	float: left;
+	line-height: 2.5em;
+	text-indent: 3.25em;
+	margin-top: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;/*the text can't be selected if double clicked*/
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+input.radio ~ label:before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	text-indent: .9em;
+	width: 2.5em;
+	background: white;/*#ff5733;*/
+	border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+	content:'\2714';/*the html code for the checkmark*/
+	text-indent: .9em;
+	color: black;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+	content:'\2714';
+	text-indent: .9em;
+	color: black;
+	background-color: #ff5733;
+}

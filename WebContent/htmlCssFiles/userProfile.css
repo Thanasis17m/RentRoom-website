@@ -1,0 +1,322 @@
+
+.user_profile {
+	max-width: 800px;
+  	margin: 40px auto;
+  	background-color: #f2f2f2;
+  	padding: 15px;
+  	border: 2px solid #ff5733;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /*width: 50%;*/
+    border-radius: 5px;
+    /*display: inline-block;
+    /*max-width: 400px;
+    margin: 0 auto;*/
+}
+
+#user_image {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 5px 5px 0 0;
+}
+
+.user_greeting {
+	display: inline-block;
+	vertical-align: top;
+	text-indent: 20px;
+}
+
+.hello_msg {
+	display: block;
+	font-size: 44px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	color: #484848;
+	font-weight: normal;
+}
+
+.info {
+	display: block;
+	font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+}
+
+.tabs {
+	display: block;
+	overflow: hidden;
+	/*width: 100%;*/
+    border: 1px solid #ccc;
+    background-color: #ff5733;
+    vertical-align: top; /*vertical-align is by default set to baseline,this aligns the tabs with the upper line of the avatar image*/
+}
+
+.tab_button {
+	background-color: #ff5733;
+	float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab_button:hover {
+    background-color: #ddd;
+    color: black;
+    background-color: #ff6f00;
+}
+
+/* Create an active/current tablink class */
+.tab_button.active {
+    background-color: #ccc;
+    color: black;
+    background-color: #ff6f00;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding-bottom: 20px;
+}
+
+.field_title {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.field_value {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.edit_box {
+    display: none;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.edit_box:focus{
+    border: 2px solid #ff5733;
+}
+
+#edit_button_div {
+    overflow: hidden;
+}
+
+#save_cancel_button_div {
+    overflow: hidden;
+    display: none;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.edit_button {
+    width: 100px;
+    height: 50px;
+    float: right;
+    display: inline-block;
+    background-color: #ff5733; /*button's color*/
+    border: none;
+    color: white;/*text's color*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;/*the speed of the hover effect*/
+    cursor: pointer;
+}
+
+.edit_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+.save_button, .cancel_button {
+    width: 120px;
+    height: 50px;
+    float: right;
+    display: inline-block;
+    background-color: #ff5733; /*button's color*/
+    border: none;
+    color: white;/*text's color*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;/*the speed of the hover effect*/
+    cursor: pointer;
+}
+
+.save_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+.cancel_button {
+   float: left;
+   width: 100px;
+   background-color: #EE3233;
+}
+
+.cancel_button:hover {
+    background-color: #ff5733;
+    color: black;
+}
+
+
+.review_box {
+    padding: 15px 25px;/*top/bottom & right/left*/
+    border: 2px solid #ff5733;
+}
+
+.review_title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.review_rating {
+    display: inline-block;
+    font-size: 18px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.review_text {
+    width: 100%;
+    clear: both;
+    font-size: 17px;
+}
+
+.booking_box {
+    padding: 15px 25px;/*top/bottom & right/left*/
+    border: 2px solid #ff5733;
+    font-size: 17px;
+}
+
+.booking_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.host_option_div {
+	margin_top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 2px solid #ff5733;
+	border-top: hidden;
+	border-right: hidden;
+	border-left: hidden;
+}
+
+
+.host_option_title {
+	font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+	display: block;
+}
+
+.create_button, .listings_button {
+	width: 120px;
+    height: 50px;
+    display: block;
+    background-color: #ff5733; /*button's color*/
+    border: none;
+    color: white;/*text's color*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;/*the speed of the hover effect*/
+    cursor: pointer;
+}
+
+.listings_button{
+	width: 150px;
+}
+
+.create_button:hover, .listings_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+.input_address {
+	display: block;
+	width: 75%;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input_address:focus{
+	border: 1px solid #ff5733;
+}
+
+.contact_div {
+	background-color: #f2f2f2;
+  	/*padding: 10px;*/
+  	border: 1px solid #ff5733;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	overflow: hidden;
+}
+
+.contact_name {
+	display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 25px;	
+}
+
+.view_messages_button {
+	width: 120px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+    background-color: #ff5733; /*button's color*/
+    border: none;
+    color: white;/*text's color*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;/*the speed of the hover effect*/
+    cursor: pointer;
+}
+
+.view_messages_button:hover {
+ 	background-color: #ff6f00;
+	color: black;
+}
+

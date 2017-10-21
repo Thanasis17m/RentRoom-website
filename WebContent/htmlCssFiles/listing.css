@@ -1,0 +1,147 @@
+
+.listing_div {
+	max-width: 1000px;
+  	margin: 40px auto;
+  	background-color: #f2f2f2;
+  	padding: 15px;
+  	border: 2px solid #ff5733;
+}
+
+.listing_info{
+	background-color: #f2f2f2;
+  	padding: 10px;
+  	border: 1px solid #ff5733;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+}
+
+.info_title {
+	display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.info_value {
+	display: inline-block;
+    font-size: 17px;
+}
+
+.contact_button {
+    width: 100px;
+    height: 50px;
+    float: right;
+    display: inline-block;
+    background-color: #ff5733; /*button's color*/
+    border: none;
+    color: white;/*text's color*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;/*the speed of the hover effect*/
+    cursor: pointer;
+}
+
+.contact_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+
+.search_arrival, .search_departure, .search_adults {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.search_title {
+	font-size: 17px;
+	color: #4c4c4c;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.search_input {
+	font-size: 14px;
+	background-color: #f2f2f2;
+	padding: 10px 10px;
+    border: none;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+
+.has_calendar_icon { /*we place the small calendar icon inside the search input field*/
+  background: white url(..//Images/calendar_tiny3.png) 4% no-repeat;
+  text-indent: 22px;
+}
+
+#ui-datepicker-div {/*style the date picker calendar*/
+  background: #ff5733;/*background colour set to orange*/
+  border: 1px solid #555;/*thicker border between the day cells*/
+  color: #EEE;/*the day's color set to white*/
+}
+
+.select_rating {
+	margin-top: 10px;
+	border: 2px solid #8a8a8a;
+	border-radius: 5px;
+}
+
+.select_rating:focus {
+	border: 2px solid #ff5733;
+}
+
+.book_button {
+  width: 100px;
+  height: 50px;
+  float: right;
+  display: inline-block;
+  background-color: #ff5733; /*button's color*/
+  border: none;
+  color: white;/*text's color*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;/*the speed of the hover effect*/
+  cursor: pointer;
+}
+
+.book_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+.review_div {
+	margin-top: 10px;
+	background-color: #f2f2f2;
+  	padding: 10px;
+	border: 1px solid #ff5733;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.reviewer {
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+}
+
+.rating {
+	display: inline-block;
+	float: right;
+	font-size: 16px;
+}
+
+.review {
+	display: block;
+	width: 100%;
+	font-size: 14px;
+}
+

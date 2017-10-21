@@ -1,0 +1,8 @@
+
+body {
+    background-color: #f5f5f5; /*set whitesmoke colour for background*/
+                              /*other colors: #f0ede6, #f0e6e6*/
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica,Arial,sans-serif;
+}

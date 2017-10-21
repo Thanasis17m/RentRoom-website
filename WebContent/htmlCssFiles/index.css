@@ -1,0 +1,187 @@
+
+.home_banner {
+	background-color: #f5f5f5; /*set whitesmoke colour for background*/
+	max-width: 600px;
+  margin: 55px auto;/*centers the banner's div with 55px top & bottom*/
+}
+
+#banner {
+	display: block;/*images are inline-blocks from default*/
+  margin: 0 auto;/*centers the banner image inside its div*/
+}
+
+.quote {
+  background-color: #f5f5f5; /*set whitesmoke colour for background*/
+  max-width: 1200px;
+  margin: 75px auto;/*centers the banner's div with 45px top & bottom*/
+  /*font-size: 20px;*/
+}
+
+#highlight {
+  color:#ff6f00;
+  font-size: 23px;
+}
+
+.search_div {
+  padding: 10px;
+  background-color: #f5f5f5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search_location {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.search_title {
+  display: block;
+  font-size: 17px;
+  color: #4c4c4c;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.search_box {
+  padding: 6px 7px 7px 7px;/*top bottom left right*/
+  background-color: #fff;/*white*/
+  border: 2px solid #8a8a8a;
+  border-radius: 5px; /*we add rounded corners*/
+  box-shadow: 0 1px 1px 0;
+  max-width: 100%;
+}
+
+.search_input{
+  border: 0px;/*remove the html input border*/
+  font-size: 14px;/*size of text inside the search field*/
+  width: 100%;
+}
+
+.search_date {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#check_in {
+  width: 46%;
+  float: left;
+}
+
+#check_out {
+  width: 46%;
+  float: right;
+}
+
+.has_calendar_icon { /*we place the small calendar icon inside the search input field*/
+  background: white url(..//Images/calendar_tiny3.png) left no-repeat;
+  text-indent: 25px;
+}
+
+.search_guests {
+  clear: both; /*the checkin & checkout boxes are float,so we use clear,so 
+                that this div goes under them and not behind them*/
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+.select_adults {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.select_children {
+  display: inline-block;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.select_title {
+  font-size: 17px;
+  color: #4c4c4c;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+
+.search_button {
+  width: 100px;
+  height: 50px;
+  float: right;
+  display: inline-block;
+  background-color: #ff5733; /*button's color*/
+  border: none;
+  color: white;/*text's color*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;/*the speed of the hover effect*/
+  cursor: pointer;
+}
+
+.search_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+#ui-datepicker-div {/*style the date picker calendar*/
+  background: #ff5733;/*background colour set to orange*/
+  border: 1px solid #555;/*thicker border between the day cells*/
+  color: #EEE;/*the day's color set to white*/
+}
+
+
+.recommendations {
+	max-width: 850px;
+	margin: 40px auto;
+	background-color: #f5f5f5;
+	padding: 15px;
+	border: none;
+}
+
+.result {
+	display: inline-block;
+	background-color: #f2f2f2;
+  	padding: 10px;
+  	border: 1px solid #ff5733;
+  	border-bottom: none;
+  	border-left: none;
+  	margin: 10px 5px;
+}
+
+.listing_title {
+	display: block;
+	font-size: 18px;
+	color: #484848;
+	font-weight: bold;
+}
+
+.listing_type, .listing_reviews, .listing_beds {
+	display: inline-block;	
+	font-size: 16px;
+	color: #484848;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.listing_price, .listing_rating {
+	display: inline-block;	
+	font-size: 16px;
+	color: #484848;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: right;
+}
+
+.listing_image {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	max-width: 820px;
+	max-height: 400px;
+}

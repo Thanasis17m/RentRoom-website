@@ -1,0 +1,162 @@
+
+.main_div {
+	max-width: 600px;
+  	margin: 40px auto;
+  	background-color: #f2f2f2;
+  	padding: 15px;
+  	border: 2px solid #ff5733;
+}
+
+.div_title {
+	font-size: 18px;
+	display: block;
+	text-align: center;
+}
+
+
+.field_title {
+	display: block;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.field_input {
+	display: inline-block;
+	width: 100%;
+    padding: 10px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.field_input:focus{
+	border: 2px solid #ff5733;
+}
+
+.textarea {
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.textarea:focus{
+	border: 2px solid #ff5733;
+}
+
+.type_div{
+	clear: both;
+	/*margin: 0 25px;*/
+}
+
+.type_name {/*label css*/
+	width: 250px;
+  	border-radius: 4px;
+  	border: 1px solid #ccc;
+  	background-color: white;
+}
+
+
+/* hide input */
+input.radio {
+	display: none;
+}
+
+/* style label */
+input.radio ~ label {
+	position: relative;
+	float: left;
+	line-height: 2.5em;
+	text-indent: 3.25em;
+	margin-top: 10px;
+	cursor: pointer;
+	-webkit-user-select: none;/*the text can't be selected if double clicked*/
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+input.radio ~ label:before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	text-indent: .9em;
+	width: 2.5em;
+	background: white;/*#ff5733;*/
+	border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+	content:'\2714';/*the html code for the checkmark*/
+	text-indent: .9em;
+	color: black;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+	content:'\2714';
+	text-indent: .9em;
+	color: black;
+	background-color: #ff5733;
+}
+
+.select_div {
+	border: 2px solid #8a8a8a;
+	border-radius: 5px;
+}
+
+.select_div:focus{
+	border: 2px solid #ff5733;
+}
+
+
+.rooms_and_beds{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.options_space {
+	display:inline-block; margin: 7px 10px;
+}
+
+.create_button {
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  background-color: #ff5733; /*button's color*/
+  border: none;
+  color: white;/*text's color*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;/*the speed of the hover effect*/
+  cursor: pointer;
+}
+
+.create_button:hover {
+  background-color: #ff6f00;
+  color: black;
+}
+
+.has_calendar_icon { /*we place the small calendar icon inside the search input field*/
+  background: white url(..//Images/calendar_tiny3.png) left no-repeat;
+  text-indent: 25px;
+}
+
+
+#ui-datepicker-div {/*style the date picker calendar*/
+  background: #ff5733;/*background colour set to orange*/
+  border: 1px solid #555;/*thicker border between the day cells*/
+  color: #EEE;/*the day's color set to white*/
+}
